@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_BASE_URL = 'http://192.168.1.3:4456';
+const API_BASE_URL = 'http://<IP>:<HOST>';
 const AUTH_USER_KEY = 'auth_user';
 
 export default function App() {
